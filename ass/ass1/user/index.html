@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+
+<body>
+    <img src="../images/AhmadNaser-1.png" alt="" width="400" height="400">
+    <h1>Ahmad Naser</h1>
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="Name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="img">Upload your Image:</label>
+        <br>
+        <input type="file" name="Image" id="img" accept="image/*">
+        <br>
+        <br>
+        <label for="bio">Bio:</label>
+        <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Enter your Biography"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
